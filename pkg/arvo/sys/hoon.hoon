@@ -597,13 +597,6 @@
   ?:  (b i.a)  &
   $(a t.a)
 ::
-++  limo                                                ::  listify
-  |*  a=*
-  ^+  =<  $
-    |@  ++  $  ?~(a ~ ?:(*? [i=-.a t=$] $(a +.a)))
-    --
-  a
-::
 ++  murn                                                ::  maybe transform
   ~/  %murn
   |*  [a=(list) b=$-(* (unit))]
@@ -1838,6 +1831,13 @@
 ::
 ::    2l: container from container
 +|  %container-from-container
+::
+++  limo                                                ::  listify
+  |*  a=*
+  ^+  =<  $
+    |@  ++  $  ?~(a ~ ?:(*? [i=-.a t=$] $(a +.a)))
+    --
+  a
 ::
 ++  malt                                                ::  map from list
   |*  a=(list)
