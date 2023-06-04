@@ -1851,9 +1851,6 @@
 ::    2m: container from noun
 +|  %container-from-noun
 ::
-++  ly                                                  ::  list from raw noun
-  le:nl
-::
 ++  my                                                  ::  map from raw noun
   my:nl
 ::
