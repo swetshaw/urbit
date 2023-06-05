@@ -1829,8 +1829,8 @@
     ?~(r.a [~ n.a] $(a r.a))
   --
 ::
-::    2l: container from container
-+|  %container-from-container
+::    2m: container from noun
++|  %container-from-noun
 ::
 ++  limo                                                ::  list from raw noun
   le:nl
@@ -1840,9 +1840,6 @@
 ::
 ++  silt                                                ::  set from raw noun
   si:nl
-::
-::    2m: container from noun
-+|  %container-from-noun
 ::
 ++  nl
   |%
