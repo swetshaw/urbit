@@ -1848,9 +1848,6 @@
 ::    2m: container from noun
 +|  %container-from-noun
 ::
-++  sy                                                  ::  set from raw noun
-  si:nl
-::
 ++  nl
   |%
   ::                                                    ::
