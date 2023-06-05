@@ -1836,8 +1836,7 @@
   le:nl
 ::
 ++  malt                                                ::  map from list
-  |*  a=(list)
-  (molt `(list [p=_-<.a q=_->.a])`a)
+  my:nl
 ::
 ++  molt                                                ::  map from pair list
   my:nl
@@ -1859,9 +1858,11 @@
     a
   ::                                                    ::
   ++  my                                                ::  construct map
-    |*  a=(list (pair))
+    |*  a=(list)
+::       |*  a=(list)
+::       (molt `(list [p=_-<.a q=_->.a])`a)
     =>  .(a ^+((le a) a))
-    (~(gas by `(map _p.i.-.a _q.i.-.a)`~) a)
+    (~(gas by `(map _-<.a _->.a)`~) a)
   ::                                                    ::
   ++  si                                                ::  construct set
     |*  a=(list)
