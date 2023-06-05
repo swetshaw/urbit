@@ -1843,9 +1843,7 @@
   my:nl
 ::
 ++  silt                                                ::  set from list
-  |*  a=(list)  ::  ^-  (set _i.-.a)
-  =+  b=*(tree _?>(?=(^ a) i.a))
-  (~(gas in b) a)
+  si:nl
 ::
 ::    2m: container from noun
 +|  %container-from-noun
